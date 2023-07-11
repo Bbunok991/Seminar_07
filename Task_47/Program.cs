@@ -19,7 +19,7 @@ double[,] Array(int row, int column, int leftRange, int rightRange)
     for(int i = 0; i < array.GetLength(0); i++)
     {
         
-        for(int j = i; j < array.GetLength(1); j++)
+        for(int j = 0; j < array.GetLength(1); j++)
         {
             array[i,j] = Math.Round(rand.Next(leftRange, rightRange + 1) + rand.NextDouble(), 3);
         }
