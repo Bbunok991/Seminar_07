@@ -37,7 +37,6 @@ void Array(int row, int column, int leftRange, int rightRange, int position1, in
     else System.Console.WriteLine(array[position1, position2]);
 }
 
-int check = 0;
 int row = InPut("Enter a row: ");
 int column = InPut("Enter a column: ");
 int leftRange = InPut("Enter a left range: ");
