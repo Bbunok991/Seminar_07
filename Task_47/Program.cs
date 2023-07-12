@@ -6,7 +6,7 @@ m = 3, n = 4.
 
 int InPut(string text)
 {
-    System.Console.WriteLine(text);
+    System.Console.Write(text);
     return Convert.ToInt32(Console.ReadLine());
 }
 
